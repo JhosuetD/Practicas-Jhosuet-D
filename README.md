@@ -13,16 +13,16 @@ Así pues, podemos hablar de una API como una especificación formal que estable
 # +400 Bad Request 
 La respuesta de código de estado del Protocolo de Transferencia de Hipertexto (HTTP) 400 Bad Request indica que el servidor no puede o no procesará la petición debido a algo que es percibido como un error del cliente
 
-# + 401 Unauthorized 
+# 401 Unauthorized 
 El código de error HTTP 401 indica que la petición (request) no ha sido ejecutada porque carece de credenciales válidas de autenticación para el recurso solicitado. Es similar al estatus 403, pero en este caso , la autenticación si es posible.
 
-# + 402 Payment 
+# 402 Payment 
 Required Este código de respuesta está reservado para futuros usos. El objetivo inicial de crear este código fue para ser utilizado en sistemas digitales de pagos. Sin embargo, no está siendo usado actualmente.
 
-# + 403 Forbidden
+# 403 Forbidden
 El error 403 Forbidden es un código de respuesta HTTP el cual indica que el servidor ha recibido y ha entendido la petición, pero rechaza enviar una respuesta.
 
-# +404 Not Found 
+# 404 Not Found 
 El codigo de error HTTP 404 Not Found (404 No Encontrado) de respuesta de cliente indica que el servidor no puede encontrar el recurso solicitado. Vinculos que conducen a una pagina 404 son normalmente llamados vinculos rotos o vinculos muertos, y pueden estar sujetos a Enlace Roto.
 
 ## Node JS
